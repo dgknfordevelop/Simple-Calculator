@@ -10,64 +10,62 @@
 </head>
 
 <body>
+    <div id="container">
+        <div class="header">
+            <h3>Made with Love by <span>Doğukan Çalışkan</span></h3>
+        </div>
 
-    <div class="header">
-        <h3>Made with Love by <span>Doğukan Çalışkan</span></h3>
+        <form name="calculator" id="calculator">
+
+            <table id="calc-table">
+                <tr>
+                    <th colspan="4"><input id="inpvalue" type="text" name="input" style="width: 100%; height: 40px; border: none; outline: none;"></th>
+                </tr>
+                <tr>
+                    <td> <button onclick="funct1()" type="button" class="num">1</button> </td>
+
+                    <td> <button onclick="funct2()" type="button" class="num">2</button> </td>
+
+                    <td> <button onclick="funct3()" type="button" class="num">3</button> </td>
+
+                    <td> <button onclick="functpls()" type="button" class="opr">+</button> </td>
+
+
+
+                </tr>
+                <tr>
+                    <td> <button onclick="funct4()" type="button" class="num">4</button> </td>
+
+                    <td> <button onclick="funct5()" type="button" class="num">5</button> </td>
+
+                    <td> <button onclick="funct6()" type="button" class="num">6</button> </td>
+
+                    <td> <button onclick="functmns()" type="button" class="opr">-</button> </td>
+
+                </tr>
+                <tr>
+                    <td> <button onclick="funct7()" type="button" class="num">7</button> </td>
+
+                    <td> <button onclick="funct8()" type="button" class="num">8</button> </td>
+
+                    <td> <button onclick="funct9()" type="button" class="num">9</button> </td>
+
+                    <td> <button onclick="functcrs()" type="button" class="opr">*</button> </td>
+
+                </tr>
+                <tr>
+                    <td> <button onclick="functC()" type="button" class="opr">C</button> </td>
+
+                    <td> <button onclick="funct0()" type="button" class="num">0</button> </td>
+
+                    <td> <button onclick="functopr()" type="button" class="opr">=</button> </td>
+
+                    <td> <button onclick="functdvd()" type="button" class="opr">/</button> </td>
+
+                </tr>
+            </table>
+        </form>
     </div>
-
-    <form name="calculater">
-
-        <table id="calc-table">
-            <tr>
-                <th colspan="4"><input id="inpvalue" type="text" name="input" style="width: 100%; height: 40px; border: none; outline: none;"></th>
-            </tr>
-            <tr>
-                <td> <button onclick="funct1()" type="button" class="num">1</button> </td>
-
-                <td> <button onclick="funct2()" type="button" class="num">2</button> </td>
-
-                <td> <button onclick="funct3()" type="button" class="num">3</button> </td>
-
-                <td> <button onclick="functpls()" type="button" class="opr">+</button> </td>
-
-
-
-            </tr>
-            <tr>
-                <td> <button onclick="funct4()" type="button" class="num">4</button> </td>
-
-                <td> <button onclick="funct5()" type="button" class="num">5</button> </td>
-
-                <td> <button onclick="funct6()" type="button" class="num">6</button> </td>
-
-                <td> <button onclick="functmns()" type="button" class="opr">-</button> </td>
-
-            </tr>
-            <tr>
-                <td> <button onclick="funct7()" type="button" class="num">7</button> </td>
-
-                <td> <button onclick="funct8()" type="button" class="num">8</button> </td>
-
-                <td> <button onclick="funct9()" type="button" class="num">9</button> </td>
-
-                <td> <button onclick="functcrs()" type="button" class="opr">*</button> </td>
-
-            </tr>
-            <tr>
-                <td> <button onclick="functC()" type="button" class="opr">C</button> </td>
-
-                <td> <button onclick="funct0()" type="button" class="num">0</button> </td>
-
-                <td> <button onclick="functopr()" type="button" class="opr">=</button> </td>
-
-                <td> <button onclick="functdvd()" type="button" class="opr">/</button> </td>
-
-            </tr>
-        </table>
-
-
-    </form>
-
     <script type="text/javascript " src="calculator.js">
     </script>
 </body>
