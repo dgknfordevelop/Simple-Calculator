@@ -1,7 +1,6 @@
-var inpvalue = document.getElementById("inpvalue");
+let inpvalue = document.querySelector(".inpvalue");
 
-
-function functopr() {
+let functopr = () => {
 
     if (inpvalue.value == "") {
 

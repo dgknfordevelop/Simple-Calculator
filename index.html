@@ -15,57 +15,51 @@
             <h3>Made with Love by <span>Doğukan Çalışkan</span></h3>
         </div>
 
-        <form name="calculator" id="calculator">
+        <div class="calculator-surface">
 
-            <table id="calc-table">
-                <tr>
-                    <th colspan="4"><input id="inpvalue" type="text" name="input" style="width: 100%; height: 40px; border: none; outline: none;"></th>
-                </tr>
-                <tr>
-                    <td> <button onclick="funct1()" type="button" class="num">1</button> </td>
+            <input class="inpvalue" type="text" name="input"
+                style="height: 40px; border: none; outline: none; padding-left:10px;">
 
-                    <td> <button onclick="funct2()" type="button" class="num">2</button> </td>
+            <button onclick="funct1()" type="button" class="num num-1">1</button>
 
-                    <td> <button onclick="funct3()" type="button" class="num">3</button> </td>
+            <button onclick="funct2()" type="button" class="num num-2">2</button>
 
-                    <td> <button onclick="functpls()" type="button" class="opr">+</button> </td>
+            <button onclick="funct3()" type="button" class="num num-3">3</button>
+
+            <button onclick="functpls()" type="button" class="opr plus-opr">+</button>
 
 
 
-                </tr>
-                <tr>
-                    <td> <button onclick="funct4()" type="button" class="num">4</button> </td>
+            <button onclick="funct4()" type="button" class="num">4</button>
 
-                    <td> <button onclick="funct5()" type="button" class="num">5</button> </td>
+            <button onclick="funct5()" type="button" class="num">5</button>
 
-                    <td> <button onclick="funct6()" type="button" class="num">6</button> </td>
+            <button onclick="funct6()" type="button" class="num">6</button>
 
-                    <td> <button onclick="functmns()" type="button" class="opr">-</button> </td>
+            <button onclick="functmns()" type="button" class="opr minus-opr">-</button>
 
-                </tr>
-                <tr>
-                    <td> <button onclick="funct7()" type="button" class="num">7</button> </td>
 
-                    <td> <button onclick="funct8()" type="button" class="num">8</button> </td>
+            <button onclick="funct7()" type="button" class="num">7</button>
 
-                    <td> <button onclick="funct9()" type="button" class="num">9</button> </td>
+            <button onclick="funct8()" type="button" class="num">8</button>
 
-                    <td> <button onclick="functcrs()" type="button" class="opr">*</button> </td>
+            <button onclick="funct9()" type="button" class="num">9</button>
 
-                </tr>
-                <tr>
-                    <td> <button onclick="functC()" type="button" class="opr">C</button> </td>
+            <button onclick="functcrs()" type="button" class="opr multiply-opr">*</button>
 
-                    <td> <button onclick="funct0()" type="button" class="num">0</button> </td>
 
-                    <td> <button onclick="functopr()" type="button" class="opr">=</button> </td>
+            <button onclick="functC()" type="button" class="opr clear-opr">C</button>
 
-                    <td> <button onclick="functdvd()" type="button" class="opr">/</button> </td>
+            <button onclick="funct0()" type="button" class="num">0</button>
 
-                </tr>
-            </table>
-        </form>
+            <button onclick="functopr()" type="button" class="opr equal-opr">=</button>
+
+            <button onclick="functdvd()" type="button" class="opr divide-opr">/</button>
+
+        </div>
+
     </div>
+
     <script type="text/javascript " src="calculator.js">
     </script>
 </body>

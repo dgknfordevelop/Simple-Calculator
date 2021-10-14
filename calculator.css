@@ -51,6 +51,25 @@ body {
     color: black;
 }
 
+.calculator-surface {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: 50px 50px 50px 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+
+    padding: 10px;
+    grid-template-areas: "input input input input" 
+                         "num1 num2 num3 plus"
+                         "num4 num5 num6 minus"
+                         "num7 num8 num9 multiply"
+                         "clear num0 equal divide";
+    width: 350px;
+    height: 300px;
+    border-radius: 2px;
+    background-color: black;
+}
+
 input {
     font-size: 24px;
     background-color: #b1eb34;
@@ -59,7 +78,6 @@ input {
 .num {
     background-color: #8c8c8c;
     color: white;
-    width: 90%;
     height: 40px;
     border: none;
     cursor: pointer;
@@ -74,16 +92,72 @@ input {
     border: none;
     outline: none;
     height: 40px;
-    width: 90%;
     font-size: 25px;
     font-weight: bold;
 }
 
-#calc-table {
-    width: 300px;
-    height: 300px;
-    padding: 5px;
-    border-radius: 2px;
-    background-color: black;
+.inpvalue{
+    grid-area: input;
 }
+
+.num-0{
+grid-area: num0;
+}
+.num-1{
+    grid-area: num1;
+}
+.num-2{
+    grid-area: num2;
+}
+.num-3{
+    grid-area: num3;
+}
+.num-4{
+    grid-area: num4;
+}
+.num-5{
+    grid-area: num5;
+}
+.num-6{
+    grid-area: num6;
+}
+.num-7{
+    grid-area: num7;
+}
+.num-8{
+    grid-area: num8;
+}
+.num-9{
+    grid-area: num9;
+}
+
+.plus-opr{
+    grid-area: plus;
+}
+
+.minus-opr{
+    grid-area: minus;
+}
+
+.multiply-opr{
+    grid-area: multiply;
+}
+
+.divide-opr{
+    grid-area: divide;
+}
+
+.clear-opr{
+    grid-area: clear;
+}
+
+.equal-opr{
+    grid-area: equal;
+}
+
+.divide-opr{
+    grid-area: divide;
+}
+
+
 
