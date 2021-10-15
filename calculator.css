@@ -38,9 +38,14 @@ body {
 #container {
     height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#header-calculator-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
@@ -66,7 +71,6 @@ body {
                          "num7 num8 num9 multiply"
                          "clear num0 equal divide";
     width: 290px;
-    height: 300px;
     border-radius: 2px;
     background-color: black;
 }
@@ -167,4 +171,37 @@ input {
 
 .divide-opr {
     grid-area: divide;
+}
+
+.calculator-color-container{
+    display: flex;
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 350px;
+    width: 50px;
+}
+
+.calculator-colors{
+    width: 15px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.color-pink{
+    background-color: #ffb3ec;
+}
+
+.color-blue{
+    background-color: #0099ff;
+}
+
+.color-purple{
+    background-color: #660066;
+}
+
+.color-yellow{
+    background-color: yellow;
 }

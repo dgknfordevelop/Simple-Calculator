@@ -6,6 +6,8 @@ for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", getTheButton);
 }
 
+
+//calculator functions for each of them
 function getTheButton(button) {
     let buttonText = button.target.textContent;
 
@@ -25,3 +27,5 @@ function getTheButton(button) {
     inpValue.value += buttonText;
     button.preventDefault();
 }
+
+
