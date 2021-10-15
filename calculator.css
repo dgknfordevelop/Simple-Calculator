@@ -35,7 +35,7 @@ body {
     }
 }
 
-#container{
+#container {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -47,6 +47,7 @@ body {
     color: #1a53ff;
     margin-bottom: 1.5rem;
 }
+
 .header span {
     color: black;
 }
@@ -59,7 +60,7 @@ body {
     row-gap: 10px;
 
     padding: 10px;
-    grid-template-areas: "input input input input" 
+    grid-template-areas: "input input input input"
                          "num1 num2 num3 plus"
                          "num4 num5 num6 minus"
                          "num7 num8 num9 multiply"
@@ -96,68 +97,74 @@ input {
     font-weight: bold;
 }
 
-.inpvalue{
+.inpvalue {
     grid-area: input;
 }
 
-.num-0{
-grid-area: num0;
+.num-0 {
+    grid-area: num0;
 }
-.num-1{
+
+.num-1 {
     grid-area: num1;
 }
-.num-2{
+
+.num-2 {
     grid-area: num2;
 }
-.num-3{
+
+.num-3 {
     grid-area: num3;
 }
-.num-4{
+
+.num-4 {
     grid-area: num4;
 }
-.num-5{
+
+.num-5 {
     grid-area: num5;
 }
-.num-6{
+
+.num-6 {
     grid-area: num6;
 }
-.num-7{
+
+.num-7 {
     grid-area: num7;
 }
-.num-8{
+
+.num-8 {
     grid-area: num8;
 }
-.num-9{
+
+.num-9 {
     grid-area: num9;
 }
 
-.plus-opr{
+.plus-opr {
     grid-area: plus;
 }
 
-.minus-opr{
+.minus-opr {
     grid-area: minus;
 }
 
-.multiply-opr{
+.multiply-opr {
     grid-area: multiply;
 }
 
-.divide-opr{
+.divide-opr {
     grid-area: divide;
 }
 
-.clear-opr{
+.clear-opr {
     grid-area: clear;
 }
 
-.equal-opr{
+.equal-opr {
     grid-area: equal;
 }
 
-.divide-opr{
+.divide-opr {
     grid-area: divide;
 }
-
-
-
