@@ -27,5 +27,3 @@ function getTheButton(button) {
     inpValue.value += buttonText;
     button.preventDefault();
 }
-
-
