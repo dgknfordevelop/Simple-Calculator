@@ -177,7 +177,7 @@ input {
     display: flex;
     position: absolute;
     right: 0;
-    top: 180px;
+    top: 210px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
