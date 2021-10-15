@@ -54,7 +54,7 @@ body {
 
 .calculator-surface {
     display: grid;
-    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-columns: 60px 60px 60px 60px;
     grid-template-rows: 50px 50px 50px 50px;
     column-gap: 10px;
     row-gap: 10px;
@@ -65,7 +65,7 @@ body {
                          "num4 num5 num6 minus"
                          "num7 num8 num9 multiply"
                          "clear num0 equal divide";
-    width: 350px;
+    width: 290px;
     height: 300px;
     border-radius: 2px;
     background-color: black;
